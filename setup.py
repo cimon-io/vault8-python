@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="vault8",
-    version="0.0.1",
+    version="0.0.2",
     author="Eugene Ignatov",
     author_email="eugene@cimon.io",
     maintainer="Eugene Ignatov",

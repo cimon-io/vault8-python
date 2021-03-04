@@ -98,6 +98,8 @@ class Vault8():
             options = {'url': file}
         elif isinstance(file, io.IOBase):
             options = {'file': file}
+        elif isinstance(file, dict):
+            options = file
         return self.__post_request(options)
 
     def __post_request(self, options: dict):
